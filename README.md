@@ -71,7 +71,7 @@
 ## 4: Algorithms on Trees
 
 - [x] [Check if a binary tree is a binary search tree](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-a-binary-search-tree)
-- [ ] [Check if two nodes are cousins in a Binary tree](http://www.ideserve.co.in/learn/check-if-two-nodes-are-cousins-binary-tree)
+- [x] [Check if two nodes are cousins in a Binary tree](http://www.ideserve.co.in/learn/check-if-two-nodes-are-cousins-binary-tree)
 - [ ] [Remove all nodes which lie on path having sum less than k](http://www.ideserve.co.in/learn/remove-all-nodes-which-lie-on-path-having-sum-less-than-k)
 - [ ] [Binary Search tree | Insertion and Search](http://www.ideserve.co.in/learn/binary-search-tree-insertion)
 - [ ] [Binary Search tree | Deletion](http://www.ideserve.co.in/learn/binary-search-tree-delete)
