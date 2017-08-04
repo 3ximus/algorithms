@@ -19,7 +19,7 @@ Time Complexity is O(n)
 Space Complexity is O(1)
 '''
 
-from bt_node import bt_node
+from binary_tree import node
 
 def get_depth(root, x, current_depth=1):
     '''Return depth of a node'''
@@ -48,13 +48,13 @@ if __name__ == '__main__':
           2       6
         1   3   5   7
     '''
-    n1 = bt_node(1)
-    n3 = bt_node(3)
-    n5 = bt_node(5)
-    n7 = bt_node(7)
-    n2 = bt_node(2, n1, n3)
-    n6 = bt_node(6, n5, n7)
-    root = bt_node(4, n2, n6)
+    n1 = node(1)
+    n3 = node(3)
+    n5 = node(5)
+    n7 = node(7)
+    n2 = node(2, n1, n3)
+    n6 = node(6, n5, n7)
+    root = node(4, n2, n6)
 
     print(are_cousins(root, n1, n3))
     print(are_cousins(root, n7, n2))
