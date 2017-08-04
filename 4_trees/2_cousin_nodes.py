@@ -56,6 +56,7 @@ if __name__ == '__main__':
     n6 = node(6, n5, n7)
     root = node(4, n2, n6)
 
-    print(are_cousins(root, n1, n3))
-    print(are_cousins(root, n7, n2))
-    print(are_cousins(root, n1, n5))
+    root.print_tree()
+    print('1 and 3: ', are_cousins(root, n1, n3))
+    print('7 and 2: ',are_cousins(root, n7, n2))
+    print('1 and 5: ',are_cousins(root, n1, n5))

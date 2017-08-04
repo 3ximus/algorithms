@@ -43,6 +43,7 @@ if __name__ == '__main__':
     n6 = node(6, n5, n7)
     root = node(4, n2, n6)
 
+    root.print_tree()
     print(check_bst(root, MIN_VALUE, MAX_VALUE))
 
     # --------------------------
@@ -60,4 +61,5 @@ if __name__ == '__main__':
     n6 = node(6, n4, n7)
     root = node(5, n2, n6)
 
+    root.print_tree()
     print(check_bst(root, MIN_VALUE, MAX_VALUE))
