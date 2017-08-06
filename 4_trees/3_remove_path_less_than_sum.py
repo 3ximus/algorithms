@@ -48,15 +48,15 @@ if __name__ == '__main__':
 
 
 	''' Creates tree:
-	```
-	```    1
-	``` 2      3
-	```      4    5
-	```    6         7
-	```      8     9
-	```          10
-	```            11
-	```
+
+	    1
+	 2      3
+	      4    5
+	    6         7
+	      8     9
+	          10
+	            11
+
 	'''
 	n5 = node(5, None, node(7, node(9, node(10, None, node(11)), None), None))
 	n3 = node(3, node(4, node(6, None, node(8)), None), n5)
