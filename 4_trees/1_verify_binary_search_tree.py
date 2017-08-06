@@ -1,15 +1,15 @@
 '''Verify if a binary tree is a binary search tree
 
-In a BST, the root is greater than all nodes of the left sub tree. So root value forms an upper bound on left sub tree values.
+In a binary search tree, the root is greater than all nodes of the left sub tree. So root value forms an upper bound on left sub tree values.
 
 Similarly, since the root is less than all the nodes of the right sub tree, root value forms a lower bound on the right sub tree values.
 
 This can be used for checking if a binary tree is a binary search tree or not.
-1. Initialize, low = MIN_VALUE, high = MAX_VALUE.
-2. If root.data <= low || root.data >= high, return false.
-3. Recursively check for left sub tree and right sub tree,
-    for left sub tree, pass high as root.data because for a BST, root forms an upper bound for left sub tree node values,
-    for right sub tree, pass low as root.data because for a BST, root forms a lower bound for right sub tree node values.
+1. We set lower and upper bounds, preferibly to infinity values
+2. If root.data <= lower || root.data >= upper, return false.
+3. Recursively check the left sub tree and right sub tree,
+    for the left sub tree, pass upper as root.data because for a BST, root forms an upper bound for left sub tree node values,
+    for the right sub tree, pass lower as root.data because for a BST, root forms a lower bound for right sub tree node values.
 
 Time complexity: O(n)
 '''
@@ -24,7 +24,6 @@ def check_bst(root, lower, upper):
     if root.value <= lower or root.value >= upper: # its not a bst
         return False
     return check_bst(root.left, lower, root.value) and check_bst(root.right, root.value, upper) # recurse left and right
-
 
 
 # ---------------------------- MAIN

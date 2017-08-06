@@ -2,13 +2,13 @@
 
 Two nodes are cousins if:
 1. they are not siblings (children of same parent).
-2. they are on the same current_depth.
+2. they are on the same depth.
 
 Insights:
 
 1. If node A == B return false as a node cannot be cousin of itself.
-2. Check nodes A and B are not siblings and
-3. Check nodes A and B are on same level
+2. Check if nodes A and B are not siblings and
+3. Check if nodes A and B are on the same level
 
 How to find if 2 nodes are siblings:
 1. If A and B are left and right children of the root, then they are siblings.

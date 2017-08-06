@@ -18,7 +18,7 @@ class node:
 		ret = ''
 		if self.right: # right branch
 			ret += self.right.__str__(spacing = spacing[:-2] + ('│ ' if spacing[-2:] == '└─' else '  ') + '┌─', unicode=unicode)
-		ret += '\n' + spacing + (chr(self.value + (10121 if self.value < 11 else 9440)) if unicode else str(self.value))
+		ret += spacing + (chr(self.value + (10121 if self.value < 11 else 9440)) if unicode else str(self.value)) + '\n'
 		if self.left: # left branch
 			ret += self.left.__str__(spacing = spacing[:-2] + ('│ ' if spacing[-2:] == '┌─' else '  ') + '└─',unicode=unicode)
 
@@ -26,7 +26,7 @@ class node:
 
 	def print_tree(self, unicode=True):
 		'''Print subtree starting from this node'''
-		print(str(self.__str__(unicode=unicode)))
+		print(str(self.__str__(unicode=unicode))[:-1])
 
 # ------------------
 # Traverse Functions
