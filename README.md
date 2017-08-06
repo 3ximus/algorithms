@@ -74,7 +74,7 @@
 - [x] 2. [Check if two nodes are cousins in a Binary tree](http://www.ideserve.co.in/learn/check-if-two-nodes-are-cousins-binary-tree)
 - [x] 3. [Remove all nodes which lie on path having sum less than k](http://www.ideserve.co.in/learn/remove-all-nodes-which-lie-on-path-having-sum-less-than-k)
 - [x] 4. [Binary Search tree | Insertion and Search](http://www.ideserve.co.in/learn/binary-search-tree-insertion)
-- [ ] 5. [Binary Search tree | Deletion](http://www.ideserve.co.in/learn/binary-search-tree-delete)
+- [x] 5. [Binary Search tree | Deletion](http://www.ideserve.co.in/learn/binary-search-tree-delete)
 - [ ] 6. [Binary Tree Level Order Traversal](http://www.ideserve.co.in/learn/binary-tree-level-order-traversal)
 - [ ] 7. [Print bottom view of a binary tree](http://www.ideserve.co.in/learn/bottom-view-of-a-binary-tree)
 - [ ] 8. [Print bottom view of a binary tree using level order traversal](http://www.ideserve.co.in/learn/bottom-view-of-a-binary-tree-using-level-order-traversal)
