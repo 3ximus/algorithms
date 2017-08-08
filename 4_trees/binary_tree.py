@@ -49,7 +49,7 @@ def post_order_traversal(root):
 def pre_order_traversal(root):
 	'''Traverse tree in a pre order fashion
 
-	We yield the node and then recurse into the left and right subtreees
+	We yield the node and then recurse into the left and right subtrees
 
 	Time Complexity is O(n)
 	Space Complexity is O(1)

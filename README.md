@@ -76,7 +76,7 @@
 - [x] 4. [Binary Search tree | Insertion and Search](http://www.ideserve.co.in/learn/binary-search-tree-insertion)
 - [x] 5. [Binary Search tree | Deletion](http://www.ideserve.co.in/learn/binary-search-tree-delete)
 - [x] 6. [Binary Tree Level Order Traversal](http://www.ideserve.co.in/learn/binary-tree-level-order-traversal)
-- [ ] 7. [Print bottom view of a binary tree](http://www.ideserve.co.in/learn/bottom-view-of-a-binary-tree)
+- [x] 7. [Print bottom view of a binary tree](http://www.ideserve.co.in/learn/bottom-view-of-a-binary-tree)
 - [ ] 8. [Print bottom view of a binary tree using level order traversal](http://www.ideserve.co.in/learn/bottom-view-of-a-binary-tree-using-level-order-traversal)
 - [ ] 9. [Check if a binary tree is balanced or not](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-balanced)
 - [ ] 10. [Check if a binary tree is sub-tree of another binary tree in space O(1)](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-subtree-of-another-binary-tree-space-optimized)

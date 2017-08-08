@@ -37,6 +37,6 @@ if __name__ == '__main__':
 	n3 = node(3, node(4, node(6, None, node(8)), None), n5)
 	root =  node(1, node(2), n3)
 	root.print_tree()
-	for node in level_order_traversal(root):
-		print(node.value, end=', ')
+	for n in level_order_traversal(root):
+		print(n.value, end=', ')
 	print()
