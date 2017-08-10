@@ -15,10 +15,9 @@ from binary_tree import node
 def level_order_traversal(root):
 	queue = [root,]
 	while queue != []:
-		node = queue[0]
+		node = queue.pop(0)
 		if node.left: queue.append(node.left)
 		if node.right: queue.append(node.right)
-		del queue[0]
 		yield node
 
 
