@@ -33,13 +33,7 @@ class node:
 # ------------------
 
 def post_order_traversal(root):
-	'''Traverse tree in a post order fashion
-
-	We recurse into the left and right subtrees and only then we yield the current node
-
-	Time Complexity is O(n)
-	Space Complexity is O(1)
-	'''
+	'''Traverse tree in a post-order fashion'''
 	if not root: return
 	# yield from is equivalent to for i in post_order_traversal(root): yield i , in python > 3.3
 	yield from post_order_traversal(root.left)
@@ -47,17 +41,18 @@ def post_order_traversal(root):
 	yield root
 
 def pre_order_traversal(root):
-	'''Traverse tree in a pre order fashion
-
-	We yield the node and then recurse into the left and right subtrees
-
-	Time Complexity is O(n)
-	Space Complexity is O(1)
-	'''
+	'''Traverse tree in a pre-order fashion'''
 	if not root: return
 	yield root
 	yield from pre_order_traversal(root.left)
 	yield from pre_order_traversal(root.right)
+
+def in_order_traversal(root):
+	'''Traverse tree in an in-order fashion'''
+	if not root: return
+	yield from in_order_traversal(root.left)
+	yield root
+	yield from in_order_traversal(root.right)
 
 if __name__ == '__main__':
 	'''
