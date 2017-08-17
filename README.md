@@ -79,7 +79,7 @@
 - [x] 6. [Binary Tree Level Order Traversal](http://www.ideserve.co.in/learn/binary-tree-level-order-traversal)
 - [x] 7. [Print bottom view of a binary tree](http://www.ideserve.co.in/learn/bottom-view-of-a-binary-tree)
 - [x] 8. [Print bottom view of a binary tree using level order traversal](http://www.ideserve.co.in/learn/bottom-view-of-a-binary-tree-using-level-order-traversal)
-- [ ] 9. [Check if a binary tree is balanced or not](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-balanced)
+- [x] 9. [Check if a binary tree is balanced or not](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-balanced)
 - [ ] 10. [Check if a binary tree is sub-tree of another binary tree in space O(1)](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-subtree-of-another-binary-tree-space-optimized)
 - [ ] 11. [Check if a binary tree is sub-tree of another binary tree in time O(n)](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-subtree-of-another-binary-tree-time-optimized)
 - [ ] 12. [Check if all internal nodes of BST have only one child without building tree](http://www.ideserve.co.in/learn/check-if-all-internal-nodes-have-one-child-bst-without-building-tree)

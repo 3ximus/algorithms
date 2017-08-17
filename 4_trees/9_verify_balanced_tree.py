@@ -11,6 +11,9 @@ In this algorithm "unbalance" is used to track of unbalanced nodes
 2. If the current node only has a left subtree we recurse on it and give it an unbalanced value of +1
 3. If the current node only has a right subtree we recurse on it and give it an unbalanced value of +1
 4. If a node has both subtree we recurse on both subtrees and return their values
+
+Time complexity is O(n)
+Space complexity is O(n)
 '''
 
 from binary_tree import node
