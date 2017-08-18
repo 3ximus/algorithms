@@ -10,30 +10,34 @@ Time complexity O(n^2)
 Space complexity O(1)
 '''
 
-def selection_sort(array, compare=lambda x,y: x > y):
+
+def selection_sort(array, compare=lambda x, y: x > y):
 	'''Sort an array using selection sort.
 
 	Parameters:
 		- compare -- function that receives 2 values and returns a boolean that orders a swap between the values
 	'''
-	if not array or len(array) < 2 : return
+	if not array or len(array) < 2:
+		return
 	i = 0
 	for i in range(len(array)):
 		minimum_index = i
-		for j in range(i+1, len(array)):
+		for j in range(i + 1, len(array)):
 			if compare(array[minimum_index], array[j]):
 				minimum_index = j
 		if i != minimum_index and array[i] != array[minimum_index]:
 			array[i], array[minimum_index] = array[minimum_index], array[i]
 
+
+# ---------------------------- MAIN
+
 if __name__ == '__main__':
 	'''Creates the array
 		9  3  4  7  2  5  1  6  8  0
 	'''
-	array = [ 9, 3, 4, 7, 2, 5, 1, 6, 8, 0 ]
+	array = [9, 3, 4, 7, 2, 5, 1, 6, 8, 0]
 	print(array)
 	selection_sort(array)
 	print('Crescent order:', array)
-	selection_sort(array, lambda x,y: x < y)
+	selection_sort(array, lambda x, y: x < y)
 	print('Decrescent order:', array)
-

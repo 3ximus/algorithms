@@ -12,29 +12,33 @@ Space complexity is O(n)
 
 from binary_tree import node
 
+
 def level_order_traversal(root):
-	queue = [root,]
+	queue = [root, ]
 	while queue != []:
 		node = queue.pop(0)
-		if node.left: queue.append(node.left)
-		if node.right: queue.append(node.right)
+		if node.left:
+			queue.append(node.left)
+		if node.right:
+			queue.append(node.right)
 		yield node
 
 
+# ---------------------------- MAIN
+
 if __name__ == '__main__':
 	''' Creates tree:
-
-	    1
-	 2       3
-	      4     5
-	    6          7
-	      8      9
-	           10
-
+        1
+     2       3
+          4     5
+        6          7
+          8      9
+               10
 	'''
+
 	n5 = node(5, None, node(7, node(9, node(10), None), None))
 	n3 = node(3, node(4, node(6, None, node(8)), None), n5)
-	root =  node(1, node(2), n3)
+	root = node(1, node(2), n3)
 	root.print_tree()
 	for n in level_order_traversal(root):
 		print(n.value, end=', ')

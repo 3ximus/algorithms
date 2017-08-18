@@ -155,6 +155,7 @@
 - [ ] 17. [Shortest Palindrome](http://www.ideserve.co.in/learn/shortest-palindrome)
 - [ ] 18. [The longest prefix suffix array computation in KMP pattern matching algorithm.](http://www.ideserve.co.in/learn/the-longest-prefix-suffix-array-computation)
 - [ ] 19. [The Knuth Morris Pratt algorithm for pattern matching.](http://www.ideserve.co.in/learn/the-Knuth-Morris-Pratt-algorithm)
+- [ ] 20. [Boyer-Moore algorithm]()
 
 
 ## 6: Algorithms on Graphs

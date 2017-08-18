@@ -24,28 +24,32 @@ Space complexity is O(n)
 
 from binary_tree import node
 
+
 def bottom_view(root):
-	hd = 0 # horizontal distance
-	queue = [(root, hd),]
-	mapping = {hd : root}
+	hd = 0  # horizontal distance
+	queue = [(root, hd), ]
+	mapping = {hd: root}
 	while queue != []:
 		node, hd = queue.pop(0)
 		mapping[hd] = node
-		if node.left: queue.append((node.left, hd -1))
-		if node.right: queue.append((node.right, hd +1))
-	for key in sorted(mapping.keys()): # print keys in order
+		if node.left:
+			queue.append((node.left, hd - 1))
+		if node.right:
+			queue.append((node.right, hd + 1))
+	for key in sorted(mapping.keys()):  # print keys in order
 		yield mapping[key]
 
 
+# ---------------------------- MAIN
+
 if __name__ == '__main__':
 	''' Creates tree:
-
                1
            2          3
         4     5    6      7
           8  9       10     11
-
 	'''
+
 	n3 = node(3, node(6, None, node(10)), node(7, None, node(11)))
 	n2 = node(2, node(4, None, node(8)), node(5, node(9)))
 	root = node(1, n2, n3)

@@ -18,6 +18,7 @@ Space complexity is O(n)
 
 from binary_tree import node
 
+
 def verify_balanced_tree(root, unbalance=0):
 	if not root.left and not root.right:
 		return True if unbalance < 1 else False
@@ -26,6 +27,9 @@ def verify_balanced_tree(root, unbalance=0):
 	if root.left and not root.right and unbalance == 0:
 		return verify_balanced_tree(root.left, unbalance + 1)
 	return verify_balanced_tree(root.left) and verify_balanced_tree(root.right)
+
+
+# ---------------------------- MAIN
 
 if __name__ == '__main__':
 	''' Creates tree:

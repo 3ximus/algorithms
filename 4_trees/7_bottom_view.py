@@ -22,33 +22,39 @@ Space complexity is O(n)
 
 from binary_tree import node
 
+
 def _recursive_bottom_view(root, mapping, horizontal_distance=0, depth=0):
-	if not root: return mapping
+	if not root:
+		return mapping
 	if horizontal_distance in mapping.keys():
-		if mapping[horizontal_distance][1] <= depth: # update map only if current node is the bottommost node
+		# update map only if current node is the bottommost node
+		if mapping[horizontal_distance][1] <= depth:
 			mapping[horizontal_distance] = (root, depth)
-	else: # horizontal distance doesnt exist yet
+	else:  # horizontal distance doesnt exist yet
 		mapping[horizontal_distance] = (root, depth)
 
 	mapping = _recursive_bottom_view(root.left, mapping, horizontal_distance - 1, depth + 1)
 	mapping = _recursive_bottom_view(root.right, mapping, horizontal_distance + 1, depth + 1)
 	return mapping
 
+
 def bottom_view(root):
 	'''Bottom view of binary tree'''
 	mapping = _recursive_bottom_view(root, {})
-	for key in sorted(mapping.keys()): # print keys in order
+	for key in sorted(mapping.keys()):  # print keys in order
 		yield mapping[key][0]
+
+
+# ---------------------------- MAIN
 
 if __name__ == '__main__':
 	''' Creates tree:
-
                1
            2          3
         4     5    6      7
           8  9       10     11
-
 	'''
+
 	n3 = node(3, node(6, None, node(10)), node(7, None, node(11)))
 	n2 = node(2, node(4, None, node(8)), node(5, node(9)))
 	root = node(1, n2, n3)
@@ -58,9 +64,9 @@ if __name__ == '__main__':
 	print('\n')
 
 	''' creates tree
-			  1
-		  2       3
-		4   5   6   7
+              1
+          2       3
+        4   5   6   7
 	'''
 
 	n2 = node(2, node(4), node(5))
