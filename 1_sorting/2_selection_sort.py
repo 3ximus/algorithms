@@ -19,7 +19,6 @@ def selection_sort(array, compare=lambda x, y: x > y):
 	'''
 	if not array or len(array) < 2:
 		return
-	i = 0
 	for i in range(len(array)):
 		minimum_index = i
 		for j in range(i + 1, len(array)):
