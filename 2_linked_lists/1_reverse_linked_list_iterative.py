@@ -1,14 +1,5 @@
 '''Reverse a linked list in an iterative fashion
 
-Keep 3 pointers - prev (previous node), curr (current node) and nxt (next node).
-1. Initialize prev = null, curr = null, nxt = head.
-2. Set curr = nxt.
-3. Move nxt to next node pointer.
-4. Set curr next to prev.
-5. Set prev to curr
-6. Repeat steps 2-5 till next is not null.
-7. Set curr as head pointer of the list.
-
 Time complexity  O(n)
 Space complexity O(1)
 '''
