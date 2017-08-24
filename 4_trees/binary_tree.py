@@ -70,7 +70,7 @@ if __name__ == '__main__':
 	'''
 	n5 = node(5, None, node(7, node(9, node(10, None, node(11)), None), None))
 	n3 = node(3, node(4, node(6, None, node(8)), None), n5)
-	root =  node(1, node(2), n3)
+	root = node(1, node(2), n3)
 	print("Tree:")
 	root.print_tree()
 	print("Post Order Traversal:")
