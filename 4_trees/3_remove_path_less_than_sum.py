@@ -1,11 +1,7 @@
 '''Given a binary tree, remove all nodes which lie on a path having sum less than a given number k.
 
 While traversing down we pass path_sum as a parameter which is the sum of all the nodes on the current path including the current node.
-Recursively traverse left and right subtrees passing the path_sum.
-
-Once we reach a leaf node, we start backtraking and deleting nodes, if the maximum between the left and right path sum are less than k we delete the current node setting it to None.
 A node may be part of multiple paths, so we only delete when all paths from it have sum less than k (hence the maximum between left and right)
-
 Note that by the time we come to delete a node, its children would have already been deleted and hence the current node to be deleted will be a leaf node.
 
 Time Complexity is O(n)

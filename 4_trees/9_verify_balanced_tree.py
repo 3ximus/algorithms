@@ -4,13 +4,7 @@ A binary tree is balanced if
 1. At any given node the heigh of left and right subtrees is not greater than 1
 2. At any given node the left and right subtree are balanced themselves
 
-
 In this algorithm "unbalance" is used to track of unbalanced nodes
-
-1. This algorithm starts by checking if current node is a leaf, in wich case we return False if unbalance is not lower than 1
-2. If the current node only has a left subtree we recurse on it and give it an unbalanced value of +1
-3. If the current node only has a right subtree we recurse on it and give it an unbalanced value of +1
-4. If a node has both subtree we recurse on both subtrees and return their values
 
 Time complexity is O(n)
 Space complexity is O(n)

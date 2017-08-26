@@ -3,12 +3,6 @@
 Given two binary trees a and b, check if tree b is sub-tree of tree a. A sub-tree of tree is a tree
 having any one of the nodes 'n' and all the descendants of node 'n'.
 
-1. If subtree is equal to None then return true since None tree is sub-tree for any tree.
-2. If condition 1. is not true then check if Root tree is equal to None. If it is then return false since null tree cannot have any sub-tree except null tree for which we have already checked in 1.
-3. If both conditions 1. and 2. are not true then check if value of subtree is equal to value of root
-4. If condition 3. evaluated to true then we check if left sub-tree of the main subtree matches exactly to left sub-tree of Root tree and right sub-tree of the main subtree matches exactly to right sub-tree of Root tree. If both sub-trees match then we return true since we know that the subtree is a subtree of the root tree
-5. If either 3. or 4. evaluate to false then we check if left sub-tree of bigT reeRoot contains smallT ree or right sub-tree of bigT reeRoot contains subtree. For checking this we simply make recursive calls.
-
 Time complexity is O(n^2)
 Space complexity is O(1)
 '''

@@ -6,15 +6,7 @@ Horizontal distance from root to itself is 0. Horizontal distance of right child
 Horizontal distance of node 'n' from root = horizontal distance of its parent from root + 1, if node 'n' is right child of its parent.
 Horizontal distance of node 'n' from root = horizontal distance of its parent from root - 1, if node 'n' is left child of its parent.
 
-If more than one nodes are at the same horizontal distance and are the bottom-most nodes for  that horizontal distance, then you can choose to include either of the nodes in the bottom view.
-
-For this algorithm we use a map in which the keys are horizontal distance and the values are tuples containing the node and its depth
-
-1. We start by checking if the node is null, if it is we return the given map
-2. If the horizontal distance of the current node exists on the map and its depth is inferior to the current node's depth we update the map for the that key with the current node, if the key doesnt exist we simply create it with the current node
-3. We recurse on the left subtree with horizontal distance -1 and depth +1 and let it update the map
-4. We recurse on the right subtree with horizontal distance +1 and depth +1 and let it update the map
-5. In the end the map is finished and we return the node values in order of key values (horizontal distance)
+If more than one nodes are at the same horizontal distance and are the bottom-most nodes for that horizontal distance, then you can choose to include either of the nodes in the bottom view.
 
 Time complexity is O(n)
 Space complexity is O(n)

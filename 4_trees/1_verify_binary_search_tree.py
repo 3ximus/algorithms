@@ -4,13 +4,6 @@ In a binary search tree, the root is greater than all nodes of the left sub tree
 
 Similarly, since the root is less than all the nodes of the right sub tree, root value forms a lower bound on the right sub tree values.
 
-This can be used for checking if a binary tree is a binary search tree or not.
-1. We set lower and upper bounds, preferibly to infinity values
-2. If root.data <= lower || root.data >= upper, return false.
-3. Recursively check the left sub tree and right sub tree,
-	for the left sub tree, pass upper as root.data because for a BST, root forms an upper bound for left sub tree node values,
-	for the right sub tree, pass lower as root.data because for a BST, root forms a lower bound for right sub tree node values.
-
 Time complexity: O(n)
 '''
 

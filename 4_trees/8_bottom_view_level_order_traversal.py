@@ -8,16 +8,6 @@ Horizontal distance of node 'n' from root = horizontal distance of its parent fr
 
 If more than one nodes are at the same horizontal distance and are the bottom-most nodes for  that horizontal distance, then you can choose to include either of the nodes in the bottom view.
 
-For this algorithm we use level order traversal with a slight modification. While doing the level order traversal we keep track of horizontal distance of the current node being visited. During this traversal we update the map (like the normal bottom view) with the node's horizontal distance. And since we are doing traversal level by level we don't need to keep track of the depth and simply keep updating the map. Only the bottom-most nodes of each horizontal distance will be in the map.
-We also change the queue to keep track of horizontal distance of each node.
-
-1. We add root and horizontal distance 0 to the queue and to the map (indexed by horizontal distance)
-2. While the queue is not empty we repeat steps 3 - 5
-3. Pop an item from the queue (node and its horizontal distance) and update its value in the map (horizontal distance -> node)
-4. We add the left node (if not None) with horizontal distance -1 to the queue
-5. We add the right node (if not None) with horizontal distance +1 to the queue
-
-
 Time complexity is O(n)
 Space complexity is O(n)
 '''

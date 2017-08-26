@@ -3,11 +3,6 @@
 Given two binary trees a and b, check if tree b is sub-tree of tree a. A sub-tree of tree is a tree
 having any one of the nodes 'n' and all the descendants of node 'n'.
 
-1. Find inorder traversals of subtree and Root tree and store them as a string
-2. Find postorder traversals of subtree and Root tree and store them as a string
-3. For subtree to be a sub-tree of Root tree, the string for inorder traversal of subtree should be a substring of the string for inorder traversal of Root tree. And the same for postorder traversal strings.
-
-
 The time complexity of this algorithm is O(n) since traversal string can be formed in O(n) time and substring check could also be done in O(n) time (e.g. KPM or Boyer-Moore)
 
 Time complexity is O(n)
