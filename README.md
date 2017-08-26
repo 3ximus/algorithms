@@ -3,7 +3,7 @@
 - [x] 1. [Bubble Sort](http://www.ideserve.co.in/learn/bubble-sort)
 - [x] 2. [Selection Sort](http://www.ideserve.co.in/learn/selection-sort)
 - [x] 3. [Insertion Sort](http://www.ideserve.co.in/learn/insertion-sort)
-- [ ] 4. [Heap Sort](http://www.ideserve.co.in/learn/heap-sort)
+- [x] 4. [Heap Sort](http://www.ideserve.co.in/learn/heap-sort)
 - [ ] 5. [Merge Sort](http://www.ideserve.co.in/learn/merge-sort)
 - [ ] 6. [Quick Sort]()
 - [ ] 7. [Flash Sort]()

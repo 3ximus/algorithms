@@ -16,7 +16,7 @@ The function calls itself when it didn't find the key to be deleted, and updates
 Note that the leaf node deletion is handled automaticly by the deletion of nodes with one child (returns None)
 
 Time Complexity is O(n)
-Amortized Time Complexity is O(logn)
+Amortized Time Complexity is O(log(n))
 Space Complexity is O(d) d: depth of BST
 '''
 
