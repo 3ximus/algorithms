@@ -11,8 +11,8 @@
 
 ## 2: Algorithms on Linked Lists
 
-- [ ] 1. [Reverse a Linked List - Iterative](http://www.ideserve.co.in/learn/reverse-a-linked-list-iterative)
-- [ ] 2. [Reverse a Linked List - Recursive](http://www.ideserve.co.in/learn/reverse-a-linked-list-recursive)
+- [x] 1. [Reverse a Linked List - Iterative](http://www.ideserve.co.in/learn/reverse-a-linked-list-iterative)
+- [x] 2. [Reverse a Linked List - Recursive](http://www.ideserve.co.in/learn/reverse-a-linked-list-recursive)
 - [ ] 3. [Merge two sorted linked lists](http://www.ideserve.co.in/learn/merge-two-sorted-linked-lists)
 - [ ] 4. [Find intersection of two Linked Lists](http://www.ideserve.co.in/learn/find-intersection-of-two-linked-lists)
 - [ ] 5. [Find intersection of two Linked Lists - O(m + n) Time Complexity and O(1) Space Complexity](http://www.ideserve.co.in/learn/find-intersection-of-two-linked-lists-constant-space)

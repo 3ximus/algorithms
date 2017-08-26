@@ -1,4 +1,4 @@
-'''Reverse a linked list in an iterative fashion
+'''Reverse a linked list in an recursive fashion
 
 Time complexity  O(n)
 Space complexity O(1)
@@ -8,15 +8,15 @@ from linked_list import node
 
 
 def reverse_list(head):
-	'''Reverse a linked list in an iterative fashion'''
-	p = c = None # previous and current node
-	n = head # next node
-	while n:
-		c = n
-		n = n.next
-		c.next = p
-		p = c
-	return c
+	'''Reverse a linked list in an recursive fashion'''
+	if not head:
+		return None
+	if not head.next:
+		return head
+	new_head = reverse_list(head.next)
+	head.next.next = head
+	head.next = None
+	return new_head
 
 
 # ---------------------------- MAIN
