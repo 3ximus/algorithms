@@ -14,7 +14,7 @@ MIN_VALUE = -2**32  # hypothetic minimum integer value
 MAX_VALUE = 2**32  # hypothetic maximum integer value
 
 
-def check_bst(root, lower, upper):
+def check_bst(root, lower=MIN_VALUE, upper=MAX_VALUE):
 	'''Verify if a binary tree is a binary search tree'''
 	if not root:
 		return True
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 	root = node(4, n2, n6)
 
 	root.print_tree()
-	print(check_bst(root, MIN_VALUE, MAX_VALUE))
+	print(check_bst(root))
 
 	# --------------------------
 

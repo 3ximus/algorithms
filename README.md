@@ -83,7 +83,7 @@
 - [x] 10. [Check if a binary tree is sub-tree of another binary tree in space O(1)](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-subtree-of-another-binary-tree-space-optimized)
 - [x] 11. [Check if a binary tree is sub-tree of another binary tree in time O(n)](http://www.ideserve.co.in/learn/check-if-a-binary-tree-is-subtree-of-another-binary-tree-time-optimized)
 - [x] 12. [Check if all internal nodes of BST have only one child without building tree](http://www.ideserve.co.in/learn/check-if-all-internal-nodes-have-one-child-bst-without-building-tree)
-- [ ] 13. [Check if a given binary tree is symmetric tree or not](http://www.ideserve.co.in/learn/check-if-binary-tree-is-symmetric-tree)
+- [x] 13. [Check if a given binary tree is symmetric tree or not](http://www.ideserve.co.in/learn/check-if-binary-tree-is-symmetric-tree)
 - [ ] 14. [Check if two binary search trees are identical given their array representations](http://www.ideserve.co.in/learn/check-if-identical-binary-search-trees-without-building-them-set-1)
 - [ ] 15. [Check if two binary search trees are identical given their array representations | Set 2](http://www.ideserve.co.in/learn/check-if-identical-binary-search-trees-without-building-them-set-2)
 - [ ] 16. [Check if the given n-ary tree is symmetric tree or not](http://www.ideserve.co.in/learn/check-if-n-ary-tree-is-symmetric-tree)
