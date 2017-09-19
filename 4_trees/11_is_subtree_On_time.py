@@ -18,10 +18,10 @@ def is_subtree(root, subtree):
 #   the node value and convert it to a string in each item of the iterable
 	inorder_root_string = ''.join(map(lambda x: str(x.value), in_order_traversal(root)))
 	inorder_subtree_string = ''.join(map(lambda x: str(x.value), in_order_traversal(subtree)))
-	if inorder_subtree_string in inorder_root_string:  # TODO use KPM algorithm
+	if inorder_subtree_string in inorder_root_string:
 		postorder_root_string = ''.join(map(lambda x: str(x.value), post_order_traversal(root)))
 		postorder_subtree_string = ''.join(map(lambda x: str(x.value), post_order_traversal(subtree)))
-		if postorder_subtree_string in postorder_root_string:  # TODO use KPM algorithm
+		if postorder_subtree_string in postorder_root_string:
 			return True
 	return False
 
