@@ -15,6 +15,9 @@ class node:
 		ret += str(self.value) + ' -> ' + str(self.next)
 		return ret
 
+	def __repr__(self):
+		return self.__str__()
+
 	def print_list(self):
 		'''Print list starting from this node'''
 		print(self)
