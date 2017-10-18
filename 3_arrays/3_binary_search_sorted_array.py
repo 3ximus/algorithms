@@ -26,11 +26,6 @@ def binary_search(array, value):
 
 
 if __name__ == '__main__':
-	'''
-	Demo:
-	 - creates array
-	      "abc"
-	'''
 	array = [5, 11, 22, 34, 56, 69, 77, 83, 99, 104, 198, 230, 290, 341, 402]
 	print("Array:", array)
 	print("Value 99 found at position:", binary_search(array, 99))

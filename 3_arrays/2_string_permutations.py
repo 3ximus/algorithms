@@ -22,11 +22,6 @@ def permutations(string):
 
 
 if __name__ == '__main__':
-	'''
-	Demo:
-	 - creates string
-	      "abc"
-	'''
 	string = "abc"
 	print("String: " + string)
 	print("Permutations:")

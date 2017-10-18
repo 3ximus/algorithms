@@ -22,11 +22,6 @@ def count_frequencies(array):
 # ---------------------------- MAIN
 
 if __name__ == '__main__':
-	'''
-	Demo:
-	 - creates array
-	      [ 2, 3, 3, 4, 3, 1, 6 ]
-	'''
 	array = [2, 3, 3, 4, 3, 1, 6]
 	print("Array:")
 	print(array)
