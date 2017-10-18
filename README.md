@@ -15,7 +15,7 @@
 - [x] 2. [Reverse a Linked List - Recursive](2_linked_lists/2_reverse_linked_list_recursive.py)
 - [x] 3. [Merge two sorted linked lists](2_linked_lists/3_merge_sorted_list.py)
 - [ ] 4. [Find intersection of two Linked Lists](http://www.ideserve.co.in/learn/find-intersection-of-two-linked-lists)
-- [ ] 5. [Find intersection of two Linked Lists - O(m + n) Time Complexity and O(1) Space Complexity](http://www.ideserve.co.in/learn/find-intersection-of-two-linked-lists-constant-space)
+- [ ] 5. [Find intersection of two Linked Lists - O(m + n) Time and O(1) Space](http://www.ideserve.co.in/learn/find-intersection-of-two-linked-lists-constant-space)
 - [ ] 6. [Detect a loop in a linked list and find the node where the loop starts.](http://www.ideserve.co.in/learn/detect-a-loop-in-a-linked-list)
 - [ ] 7. [Convert a binary tree to doubly linked list](http://www.ideserve.co.in/learn/convert-a-binary-tree-to-doubly-linked-list)
 - [ ] 8. [Convert a sorted Doubly Linked List to Balanced Binary Search Tree](http://www.ideserve.co.in/learn/convert-a-sorted-doubly-linked-list-to-balanced-binary-search-tree-bst)
@@ -24,7 +24,7 @@
 
 ## 3: Algorithms on Arrays
 
-- [ ] 1. [Count frequencies of array elements in range 1 to n](http://www.ideserve.co.in/learn/count-frequencies-of-array-elements)
+- [x] 1. [Count frequencies of array elements in range 1 to n](3_arrays/1_count_element_frequency.py)
 - [ ] 2. [Find all permutations of a String](http://www.ideserve.co.in/learn/all-permutations-of-a-string)
 - [ ] 3. [Binary Search in a Sorted Array](http://www.ideserve.co.in/learn/binary-search-in-a-sorted-array)
 - [ ] 4. [Leaders in an array](http://www.ideserve.co.in/learn/leaders-in-an-array)
