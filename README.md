@@ -25,8 +25,8 @@
 ## 3: Algorithms on Arrays
 
 - [x] 1. [Count frequencies of array elements in range 1 to n](3_arrays/1_count_element_frequency.py)
-- [x] 2. [Find all permutations of a String](http://www.ideserve.co.in/learn/all-permutations-of-a-string)
-- [ ] 3. [Binary Search in a Sorted Array](http://www.ideserve.co.in/learn/binary-search-in-a-sorted-array)
+- [x] 2. [Find all permutations of a String](3_arrays/1_string_permutations.py)
+- [x] 3. [Binary Search in a Sorted Array](3_arrays/1_binary_search_sorted_array.py)
 - [ ] 4. [Leaders in an array](http://www.ideserve.co.in/learn/leaders-in-an-array)
 - [ ] 5. [Find a Peak Element in an array](http://www.ideserve.co.in/learn/find-a-peak-element-in-an-array)
 - [ ] 6. [Find pivot in a sorted rotated array](http://www.ideserve.co.in/learn/find-pivot-in-a-sorted-rotated-array)
